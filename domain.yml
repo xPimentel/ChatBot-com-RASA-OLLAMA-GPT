@@ -1,0 +1,39 @@
+version: "3.1"
+
+intents:
+  - cumprimentar
+  - despedir
+  - agradecer
+  - afirmar
+  - negar
+  - humor
+  - perguntar_chatgpt
+  - perguntar_ollama
+  - bot_challenge
+
+responses:
+  utter_cumprimentar:
+    - text: "Olá! Como posso ajudar?"
+
+  utter_despedir:
+    - text: "Tchau! Foi bom conversar com você."
+
+  utter_agradecer:
+    - text: "De nada, estou aqui para ajudar!"
+
+  utter_humor:
+    - text: "Estou sempre bem! Como posso te ajudar hoje?"
+
+  utter_iaou_humano:
+    - text: "Eu sou um assistente automatizado, mas estou aqui para ajudar!"
+
+  utter_padrao:
+    - text: "Desculpe, não entendi. Poderia reformular?"
+
+actions:
+  - action_perguntar_chatgpt
+  - action_ask_ollama
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

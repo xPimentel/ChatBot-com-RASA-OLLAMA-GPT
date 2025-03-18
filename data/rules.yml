@@ -1,0 +1,32 @@
+version: "3.1"
+
+rules:
+  - rule: Responder quando cumprimentar
+    steps:
+      - intent: cumprimentar
+      - action: utter_cumprimentar
+
+  - rule: Responder quando despedir
+    steps:
+      - intent: despedir
+      - action: utter_despedir
+
+  - rule: Responder quando agradecer
+    steps:
+      - intent: agradecer
+      - action: utter_agradecer
+
+  - rule: Perguntar ao ChatGPT
+    steps:
+      - intent: perguntar_chatgpt
+      - action: action_perguntar_chatgpt
+
+  - rule: Perguntar ao Ollama
+    steps:
+      - intent: perguntar_ollama
+      - action: action_ask_ollama
+
+  - rule: Responder desafio bot
+    steps:
+      - intent: bot_challenge
+      - action: utter_iaou_humano
