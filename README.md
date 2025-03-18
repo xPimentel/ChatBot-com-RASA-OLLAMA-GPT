@@ -7,7 +7,7 @@ RasaGPT é um assistente de conversação avançado que combina o poder do frame
 - Integrar-se ao Ollama para processamento local de IA
 - Oferecer uma interface web responsiva e amigável
 
-<img src="video_convertido.gif" width="1000" alt="Descrição">
+<img src="video_convertido.gif" style="width:max-width:100%;" alt="Descrição">
 
 ## 📋 Pré-requisitos
 
