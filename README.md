@@ -7,15 +7,15 @@ RasaGPT é um assistente de conversação avançado que combina o poder do frame
 - Integrar-se ao Ollama para processamento local de IA
 - Oferecer uma interface web responsiva e amigável
 
-<img src="video_convertido.gif" alt="Descrição">
+<img src="video_convertido.gif" width="1000" alt="Descrição">
 
 ## 📋 Pré-requisitos
 
 Antes de começar, você precisará ter instalado:
 
 - Python (3.8 ou superior)
-- Node.js e npm (para desenvolvimento frontend, opcional)
-- Ollama (opcional, para processamento local de IA)
+- Node.js e npm (para desenvolvimento frontend, opcional) [no meu caso, não utilizei]
+- Ollama (para processamento local de IA)
 
 ## 🚀 Instalação
 
@@ -45,6 +45,7 @@ source venv/bin/activate
 pip install rasa==3.6.2
 pip install rasa-sdk==3.6.0
 pip install openai requests
+pip install -r requirements.txt
 ```
 
 ### 4. Configure a API do OpenAI (opcional, mas recomendado para usar o ChatGPT)
