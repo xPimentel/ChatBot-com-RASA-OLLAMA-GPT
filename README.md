@@ -29,8 +29,9 @@ cd rasagpt
 ### 2. Configure um ambiente virtual Python
 
 ```bash
-# Crie um ambiente virtual
-python -m venv venv
+# Crie um ambiente virtual, se possível com Python 3.8
+python -m venv .venv 
+ou py -3.8 -m venv .venv  
 
 # Ative o ambiente virtual
 # No Windows
@@ -110,6 +111,10 @@ python -m http.server 8080
 ```
 
 Agora, acesse http://localhost:8080 no seu navegador para interagir com o RasaGPT.
+
+### Confirmando: Sim, serão 3 CMD's abertos cada um funcionando, segue um exemplo: 
+
+<img src="cmdrasagptvideo.gif" style="width:max-width:100%;" alt="Descrição">
 
 ## 🔍 Uso do Assistente
 
